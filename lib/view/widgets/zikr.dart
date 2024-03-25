@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:session11_task/widgets/counter_button.dart';
+import 'package:session11_task/view/widgets/counter_button.dart';
 
 class Zikr extends StatelessWidget {
   const Zikr({

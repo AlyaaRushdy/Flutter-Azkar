@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:session11_task/themes/colors.dart';
+import 'package:session11_task/view/themes/colors.dart';
 
 ThemeData appThemeLight() {
   return ThemeData(

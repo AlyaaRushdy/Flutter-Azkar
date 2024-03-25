@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:session11_task/widgets/zikr.dart';
+import 'package:session11_task/view/widgets/zikr.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

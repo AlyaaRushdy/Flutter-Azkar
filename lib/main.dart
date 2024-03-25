@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:session11_task/screens/home_page.dart';
-import 'package:session11_task/themes/app_theme_light.dart';
+import 'package:session11_task/view/screens/home_page.dart';
+import 'package:session11_task/view/themes/app_theme_light.dart';
 
 void main() {
   runApp(const MyApp());
