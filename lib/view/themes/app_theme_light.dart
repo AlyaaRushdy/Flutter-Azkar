@@ -17,6 +17,26 @@ ThemeData appThemeLight() {
         textStyle: const MaterialStatePropertyAll(TextStyle(fontSize: 22)),
       ),
     ),
+    floatingActionButtonTheme: FloatingActionButtonThemeData(
+      backgroundColor: primaryColor,
+      foregroundColor: textColor,
+      iconSize: 30,
+      shape: const CircleBorder(),
+    ),
+    dialogTheme: DialogTheme(
+      backgroundColor: textColor,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(10),
+      ),
+    ),
+    inputDecorationTheme: InputDecorationTheme(
+      enabledBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: Colors.black),
+      ),
+      focusedBorder: UnderlineInputBorder(
+        borderSide: BorderSide(color: primaryColor),
+      ),
+    ),
     appBarTheme: AppBarTheme(
       foregroundColor: textColor,
       backgroundColor: primaryColor,
